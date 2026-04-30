@@ -4,14 +4,10 @@ This project simulates a real-world game analytics workflow, analysing player be
 
 It is designed to reflect the type of analytical work carried out on live-service games, combining statistical modelling, machine learning, SQL-based data pipelines, and data visualisation to generate actionable insights.
 
----
-
 ## Goals
 
 - Investigate how early gameplay experience influences long-term player retention.
 - Demonstrate how data can be used to inform product and design decisions in a gaming context.
-
----
 
 ## Key Insights
 
@@ -19,8 +15,6 @@ It is designed to reflect the type of analytical work carried out on live-servic
 - Players with **low early engagement** are significantly more likely to churn  
 - Players with **low win rates** in early matches have elevated churn risk  
 - Matchmaking quality and onboarding experience are critical to long-term engagement  
-
----
 
 ## Data Simulation
 
@@ -34,8 +28,6 @@ A synthetic dataset was generated to replicate realistic player behaviour:
 - Captures non-linear behavioural patterns seen in real game telemetry  
 
 This approach enables analysis of player lifecycle dynamics without relying on external data.
-
----
 
 ## Feature Engineering (SQL Pipeline)
 
@@ -56,8 +48,6 @@ Example:
     FROM matches
     GROUP BY player_id;
 
----
-
 ## Machine Learning
 
 A churn prediction model was developed using:
@@ -70,14 +60,10 @@ The model highlights that:
 - Early engagement metrics have strong predictive power  
 - Retention is influenced by a combination of performance and activity  
 
----
-
 ## Data Visualisation
 
 ### Dashboard
 ![Dashboard](outputs/dashboard.png)
-
----
 
 ### Dashboard Highlights
 
@@ -91,8 +77,6 @@ The model highlights that:
 - **Player Distribution**  
   Reveals concentration of players in low-activity segments  
 
----
-
 ## Tools Used
 
 - Python (pandas, numpy, scikit-learn)  
@@ -100,10 +84,9 @@ The model highlights that:
 - Tableau  
 - Visual Studio Code  
 
----
-
 ## Project Structure
 
+```
 game-matchmaking-analysis/
 
 ├── data/              # Simulated dataset  
@@ -111,9 +94,7 @@ game-matchmaking-analysis/
 ├── sql/               # Feature engineering pipeline  
 ├── outputs/           # Dashboard and insights  
 └── README.md  
-
----
-
+```
 ## Project Outcome
 
 This project demonstrates:
