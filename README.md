@@ -74,7 +74,7 @@ The model highlights that:
 
 ## Data Visualisation
 
-### 📸 Dashboard
+### Dashboard
 ![Dashboard](outputs/dashboard.png)
 
 ---
@@ -102,7 +102,7 @@ The model highlights that:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 game-matchmaking-analysis/
 
